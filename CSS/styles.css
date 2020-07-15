@@ -1,0 +1,230 @@
+a{
+    text-decoration:none;
+}
+
+li
+,p{
+    display:inline;
+    padding:2%;
+}
+
+nav{
+    padding:1%;
+}
+
+body{
+    padding-top: 5%;
+    font-family:'Ubuntu';
+    text-align:center;
+}
+
+/* title */
+.name{
+    display:block;
+    font-family:'Modak', cursive;
+    color:#e2979c;
+    font-size:7rem;
+}
+
+.name:hover{
+    color:#ffcac2;
+}
+
+/* nav bar tooltip */
+.tooltip-contents{
+    visibility: hidden;
+    text-align:center;
+}
+
+li:hover .tooltip-contents{
+    visibility:visible;
+}
+
+/* nav bar */
+.nav_bar{
+    position:fixed;
+    margin:auto;
+    width:100%;
+    padding-top: 3%;
+    top:0;
+    left:0px;
+    background-color:white;
+}
+
+.nav_bar_image{
+    width:40px;
+}
+
+.nav_bar_image:hover{
+    background-color:#f8fab8;
+}
+
+@media(max-width:700px){
+    .name{
+        font-size: 6em;
+    }
+    .tooltip-contents{
+        font-size: 15px;
+    }
+    .nav_bar_image{
+        width: 30px;
+    }
+}
+
+@media(max-width:680px){
+    .name{
+        font-size: 4em;
+    }
+    .tooltip-contents{
+        font-size: 10px;
+    }
+    .nav_bar_image{
+        width: 20px;
+    }
+}
+
+@media(max-width:375px){
+    .name{
+        font-size: 4em;
+    }
+    .tooltip-contents{
+        font-size: 10px;
+    }
+    .nav_bar_image{
+        width: 20px;
+    }
+
+}
+
+/* intro info */
+.intro{
+    padding:20% 0% 5%;
+}
+
+.pic_self{
+    width:200px;
+    display:block;
+    margin:auto;
+}
+
+/* resume page - home */
+
+.about-me{
+    color:#655c56;
+}
+
+.about-me:hover{
+color:#e5d8bf;
+}
+
+.about-me:visited{
+    color:lightgrey;
+
+}
+
+
+/* resume page - previous*/
+.pre{
+    display: inline-block;
+    text-align: center;
+    margin:5%;
+    border-radius: 100%;
+    width:200px;
+    height:200px;
+    line-height: 200px;
+    background-color:#effcef;
+}
+
+.resume-grid{
+    padding: 0% 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.resume-grid-image{
+    padding: 0% 36%;
+    display: grid;
+    grid-template-columns: 1fr 150px 1fr;
+}
+
+.resume-image{
+    width:100px;
+}
+
+/* resume page - current */
+
+.current{
+    display: inline-block;
+    text-align: center;
+    margin:5%;
+    border-radius: 100%;
+    width:200px;
+    height:200px;
+    line-height: 200px;
+    background-color:#ccedd2;
+}
+
+.resume-grid-current{
+    padding: 0% 30%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.resume-grid-image-current{
+    padding: 0% 36%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 100px 1fr;
+}
+
+/* resume page - next */
+
+.next{
+    display: inline-block;
+    text-align: center;
+    margin:5%;
+    border-radius: 100%;
+    width:200px;
+    height:200px;
+    line-height: 200px;
+    background-color:#94d3ac;
+}
+
+.resume-grid-next{
+    padding: 0% 30%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.resume-grid-image-next{
+    padding: 0% 36%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 100px 1fr;
+}
+
+/* skills page */
+
+.skill-stack{
+    color: rgb(77, 76, 76);
+    border-bottom: dotted;
+    border-color: #e2979c;
+}
+
+/* interests page */
+
+.interests{
+    width: 200px;
+    display: block;
+}
+
+
+/* footer */
+i{
+    padding:1%;
+    color:#3f4441;
+}
+
+i:hover{
+    color:#84a9ac;
+}
